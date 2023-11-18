@@ -218,3 +218,76 @@ footer{
     font-weight:lighter;
     color:gold
 }
+
+@media(max-width: 768px){
+    .footer-navigation{
+        display: flex;
+    }
+    nav{
+        display: none;
+    }
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+.logo-img{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    column-gap:0;
+    
+    
+}
+
+.social-media{
+    position: relative;
+    right: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.logo-text{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+#main-content{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+}
+
+h2{
+    width: 100%;
+}
+
+.buttons{
+    width: 100%;
+    position: relative;
+    right: 20%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.modal{
+     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.modal-content{
+    width: 70%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+}
+
